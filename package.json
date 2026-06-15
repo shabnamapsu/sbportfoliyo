@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server/index.js",
+    "start": "node server/index.js",
     "server": "nodemon index.js",
     "dev": "nodemon server/index.js",
     "frontend": "npm start --prefix frontend",
