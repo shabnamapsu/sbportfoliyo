@@ -36,7 +36,7 @@ function Adminabout() {
   const handleSave = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/portfolio/save-about",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/save-about",
         {
           ...aboutData,
           skills: aboutData.skills.split(","),
@@ -54,7 +54,7 @@ function Adminabout() {
   const handleUpdate = async () => {
     try {
       const response = await axios.put(
-        "http://localhost:3000/api/portfolio/update-about",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/update-about",
         {
           ...aboutData,
           skills: aboutData.skills.split(","),

@@ -38,7 +38,7 @@ function AdminCourse() {
       };
 
       const response = await axios.post(
-        "http://localhost:3000/api/portfolio/save-course",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/save-course",
         courseData
       );
 
@@ -60,7 +60,7 @@ function AdminCourse() {
 
     try {
       const response = await axios.put(
-        "http://localhost:3000/api/portfolio/update-course",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/update-course",
         course
       );
 
@@ -80,7 +80,7 @@ function AdminCourse() {
 
     try {
       await axios.delete(
-        `http://localhost:3000/api/portfolio/delete-course/${course._id}`
+        `https://sbportfoliyo-2.onrender.com/api/portfolio/delete-course/${course._id}`
       );
 
       alert("Course Deleted Successfully");

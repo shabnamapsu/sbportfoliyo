@@ -31,7 +31,7 @@ function AdminExperience() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/portfolio/save-experience",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/save-experience",
         experience
       );
 
@@ -45,7 +45,7 @@ function AdminExperience() {
   const handleUpdate = async () => {
     try {
       const response = await axios.put(
-        "http://localhost:3000/api/portfolio/update-experience",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/update-experience",
         experience
       );
 

@@ -38,7 +38,7 @@ function AdminContact() {
   const handleSave = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/portfolio/save-contact",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/save-contact",
         contact
       );
 
@@ -53,7 +53,7 @@ function AdminContact() {
   const handleUpdate = async () => {
     try {
       const response = await axios.put(
-        "http://localhost:3000/api/portfolio/update-contact",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/update-contact",
         contact
       );
 

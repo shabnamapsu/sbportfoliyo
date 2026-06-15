@@ -33,7 +33,7 @@ e.preventDefault();
 
 try {
   const response = await axios.post(
-    "http://localhost:3000/api/portfolio/save-project",
+    "https://sbportfoliyo-2.onrender.com/api/portfolio/save-project",
     project
   );
 
@@ -50,7 +50,7 @@ try {
 const handleUpdate = async () => {
 try {
 const response = await axios.put(
-"http://localhost:3000/api/portfolio/update-project",
+"https://sbportfoliyo-2.onrender.com/api/portfolio/update-project",
 project
 );
 
@@ -67,7 +67,7 @@ project
 const handleDelete = async () => {
 try {
 await axios.delete(
-`http://localhost:3000/api/portfolio/delete-project/${project._id}`
+`https://sbportfoliyo-2.onrender.com/api/portfolio/delete-project/${project._id}`
 );
 
 

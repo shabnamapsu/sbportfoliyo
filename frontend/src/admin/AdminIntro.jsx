@@ -16,7 +16,7 @@ function AdminIntro() {
       const values = form.getFieldsValue();
 
       const response = await axios.post(
-        "http://localhost:3000/api/portfolio/save-intro",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/save-intro",
         values
       );
 
@@ -33,7 +33,7 @@ function AdminIntro() {
       const values = form.getFieldsValue();
 
       const response = await axios.put(
-        "http://localhost:3000/api/portfolio/update-intro",
+        "https://sbportfoliyo-2.onrender.com/api/portfolio/update-intro",
         {
           ...values,
           _id: portfolioData?.intro?._id,
