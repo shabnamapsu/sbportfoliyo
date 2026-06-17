@@ -21,7 +21,7 @@ function App() {
       dispatch(Showloading());
 
     const response = await axios.get(
-  "http://localhost:3000/api/portfolio/alldata"
+  "https://sbportfoliyo-2.onrender.com/api/portfolio/alldata"
 );
 
 console.log("API DATA =>", response.data);
