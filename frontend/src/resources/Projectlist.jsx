@@ -41,7 +41,7 @@ function Projectlist() {
         </div>
 
         {/* Center Image */}
-        <div className="lg:w-2/4 flex justify-center items-center bg-slate-900 rounded-xl p-5">
+        <div className="lg:w-2/4 flex justify-center poition-static items-center bg-slate-900 rounded-xl p-5">
           <img
             src={projects[selectedProject]?.image}
             alt={projects[selectedProject]?.name}
